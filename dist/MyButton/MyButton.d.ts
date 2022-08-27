@@ -1,7 +1,8 @@
 import React, { FC } from 'react';
+import './MyButton.css';
 export interface MyButtonProps {
     color: string;
-    big: boolean;
+    big?: boolean;
     children: React.ReactNode;
 }
 declare const MyButton: FC<MyButtonProps>;
